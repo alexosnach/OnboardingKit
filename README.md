@@ -24,13 +24,13 @@ bar, Skip, analytics events and the loading state.
 
 1. **File → Add Package Dependencies…**
 2. Enter `https://github.com/alexosnach/OnboardingKit`
-3. Choose **Up to Next Major Version** from `0.1.0` and add the `OnboardingKit` library to your app target.
+3. Choose **Up to Next Major Version** from `0.1.1` and add the `OnboardingKit` library to your app target.
 
 ### Package.swift
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/alexosnach/OnboardingKit", from: "0.1.0"),
+    .package(url: "https://github.com/alexosnach/OnboardingKit", from: "0.1.1"),
 ],
 targets: [
     .target(name: "MyApp", dependencies: ["OnboardingKit"]),
