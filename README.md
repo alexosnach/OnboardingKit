@@ -37,6 +37,14 @@ targets: [
 ]
 ```
 
+### Import
+
+Import the library in the files where you use it:
+
+```swift
+import OnboardingKit
+```
+
 ## Quick start
 
 ### 1. Write the steps
